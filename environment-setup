@@ -1,0 +1,30 @@
+the special character "#" indicates a line comment
+
+# this file contains instructions for setting up the environment, including local environment management
+# these instructions have been tested with windsurf cascade, using the gemini 2.5 pro base model
+
+# logging 
+create a new file named "environment installation outcomes"
+record the outcomes of each installed software package, note especially the version and if any errors arose
+record the installation directories or destinations for each dependency, noting especially the paths of the executable binaries
+
+# contextual awareness
+identify the operating system, keep this in your context for the following installation instructions
+identify any available GPUs, including the cuda and/or cudnn versions, keep this information in your context for the following installation instructions
+record this information in the logging file
+# python environment management
+find v24.9.2 of conda and install it; test the installation
+create a conda environment named "athens", using python version 3.11
+activate the the "athens" environment and install any python packages inside this environment
+
+# install lean4 
+find lean4 in github and install the latest stable version per the instructions from the repo, test the installation
+
+# install an llm server
+find the latest stable version of sglang and install it
+
+# install an interface between the lean4 environment and the llm server
+- find the pantograph repository in github and install the latest stable version per the instructions from the repo
+- test the installation
+
+# integration testing 
