@@ -6,3 +6,14 @@ No errors reported.
 
 Lean4 installed using elan (version 4.18.0).
 No errors reported.
+
+SGLang installed (version 0.4.5.post3) in Python environment: /root/miniconda/envs/athens
+Executable: launched via 'python -m sglang.launch_server'
+No errors reported.
+
+Pantograph (pip package) installed at /root/miniconda/envs/athens/lib/python3.11/site-packages/pantograph
+No errors reported.
+
+PyPantograph installed via Poetry in /workspace/athens/PyPantograph/.venv
+Pantograph importable in PyPantograph venv: ['Server', 'ServerError', 'data', 'expr', 'server', 'utils', ...]
+No errors reported.

@@ -23,8 +23,19 @@ find lean4 in github and install the latest stable version per the instructions 
 # install an llm server
 find the latest stable version of sglang and install it
 
-# install an interface between the lean4 environment and the llm server
+# install an interface between the lean4 environment and the llm server, in this branch it is Pantograph
 - find the pantograph repository in github and install the latest stable version per the instructions from the repo
+- test the installation
+
+# install PyPantograph, with attention to making sure that the lake executable is accessible from the venv of poetry
+- please find and keep in context the path to the binary of the lake executable from the lean installation
+- find and install the poetry package from https://python-poetry.org/, taking care poetry can access lake from within its venv
+- find the pypantograph repository in github and follow the install instructions in from the README in the repo
+- test the installation
+
+# install leantool
+- find the leantool repo on github
+- follow the installation instructions from the repo; note that the Pantograph package has already been installed
 - test the installation
 
 # integration testing 
